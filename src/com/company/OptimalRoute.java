@@ -1,18 +1,15 @@
 package com.company;
 
 import java.util.HashMap;
-import java.util.LinkedList;
 
 public class OptimalRoute extends ListAttractions {
     float[] listFloatTime = new float[list.length];
     float[] listFloatImportance = new float[list.length];
     String[] listStringSight = new String[list.length];
-
     float[] listFloatDifference = new float[list.length];
 
     double averageTime = 0;
     double sumTime = 0;
-    float count = 0;
 
     public void printListAttraction() {
         for (int i = 0; i < list.length; i++) {
